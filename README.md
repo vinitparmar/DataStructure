@@ -23,6 +23,7 @@ data-structures/
 ┃ ┗ hard/
 ┗ 📜 README.md
 
+----
 
 ## ✅ Topics Covered
 - Arrays & Strings
@@ -51,10 +52,8 @@ data-structures/
 ---
 
 ## 🛠️ How to Run
-Each folder contains implementations in different languages:
-- **C++**: `g++ filename.cpp && ./a.out`
+Each folder contains implementations in java languages:
 - **Java**: `javac filename.java && java filename`
-- **Python**: `python filename.py`
 
 ---
 
