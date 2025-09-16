@@ -32,7 +32,7 @@ public class QuickSort {
 
         return index+1;
     }
-    
+
     public static void main(String[] args) {
         int[] arr = {5, 3, 1, 2, 4};
         sort(arr, 0, arr.length-1);
@@ -43,3 +43,17 @@ public class QuickSort {
     }
     
 }
+
+
+/**
+ * QuickSort Algorithm (Divide & Conquer)
+ *
+ * Time Complexity:
+ *  - Best: O(n log n)
+ *  - Average: O(n log n)
+ *  - Worst: O(n^2) (when pivot is always smallest/largest)
+ *
+ * Space Complexity:
+ *  - O(log n) for recursion stack (best/average)
+ *  - O(n) in worst case (unbalanced partitions)
+ */
