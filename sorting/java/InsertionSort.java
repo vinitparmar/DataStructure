@@ -4,14 +4,14 @@ public class InsertionSort {
     
     static int[] sort(int[] arr){
 
-        for(int i = 1 ; i < arr.length ; i++){
-            int value  = arr[i];
-            int j = i-1;
-            while(j >= 0 && arr[j] > value){
-                arr[j+1] = arr[j];
-                j = j-1;
+        for(int currentIndex  = 1 ; currentIndex  < arr.length ; currentIndex ++){
+            int currentValue   = arr[currentIndex];
+            int previousIndex  = currentIndex -1;
+            while(previousIndex  >= 0 && arr[previousIndex ] > currentValue ){
+                arr[previousIndex+1] = arr[previousIndex];
+                previousIndex = previousIndex-1;
             }
-            arr[j+1] = value;
+            arr[previousIndex+1] = currentValue ;
         }
 
         return arr;
