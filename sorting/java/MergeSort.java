@@ -36,7 +36,7 @@ public class MergeSort {
         }
 
         int i = 0; 
-        int j = 0; 
+        int j = 0;  
         int k = start;
 
         while(i < n1 && j < n2){
