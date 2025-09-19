@@ -1,4 +1,4 @@
-package array.java;
+package array.java.TwoPointer;
 
 public class Searching {
 
