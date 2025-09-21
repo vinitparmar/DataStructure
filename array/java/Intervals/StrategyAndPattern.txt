@@ -1,0 +1,11 @@
+Interval problem patterns & strategies
+
+1. Sort by start  --> merging/insert problems.
+
+2. Sort by end --> scheduling / maximize intervals (greedy).
+
+3. Use a result list (or stack) --> when merging overlapping intervals.
+
+4. Use a min-heap (priority queue) --> when you need to track smallest end time (e.g., min meeting rooms).
+
+5. Line sweep / events --> convert intervals to start/end events for counts or max overlap.
