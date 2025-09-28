@@ -1,7 +1,7 @@
 
 # 🚀 Data Structures and Algorithms
 
-This repository is a **collection of Data Structures and Algorithms (DSA)** implemented in multiple programming languages.  
+This repository is a **collection of Data Structures and Algorithms (DSA)** implemented in JAVA programming language.  
 It is designed for **practice, interview preparation, and portfolio showcase**.
 
 ---
