@@ -21,7 +21,7 @@ public class RemoveDuplicates {
         return head;
     }
 
-     static void printList(SingleNode head) {
+    static void printList(SingleNode head) {
         SingleNode curr = head;
         while (curr != null) {
             System.out.print(curr.data + " ");
