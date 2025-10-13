@@ -2,8 +2,6 @@ package linkedlist.java.SingleNode;
 
 import java.util.HashSet;
 
-import org.w3c.dom.Node;
-
 public class RemoveDuplicates {
 
     static SingleNode removeDuplicates(SingleNode head){
