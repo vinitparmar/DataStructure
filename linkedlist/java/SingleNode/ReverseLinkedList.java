@@ -1,7 +1,5 @@
 package linkedlist.java.SingleNode;
 
-import org.w3c.dom.Node;
-
 public class ReverseLinkedList {
 
     static SingleNode reverse(SingleNode head){

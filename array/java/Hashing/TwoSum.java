@@ -2,8 +2,6 @@ package array.java.Hashing;
 
 import java.util.*;
 
-import org.xml.sax.HandlerBase;
-
 public class TwoSum {
 
     static int[] findIndices(int[] arr , int sum){
