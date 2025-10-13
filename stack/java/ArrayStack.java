@@ -57,6 +57,6 @@ public class ArrayStack {
 
         System.out.println("Top element: " + stack.peek());
 
-       stack.pop();
+        stack.pop();
     }
 }
