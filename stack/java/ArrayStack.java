@@ -1,7 +1,5 @@
 package stack.java;
 
-import java.util.Arrays;
-
 public class ArrayStack {
 
     private int maxSize;
