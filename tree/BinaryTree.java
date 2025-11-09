@@ -1,10 +1,10 @@
 package tree;
 
-public class BinarySearch {
+public class BinaryTree {
 
    static Node root;
 
-    public BinarySearch(){
+    public BinaryTree(){
         root = null;
     }
 
