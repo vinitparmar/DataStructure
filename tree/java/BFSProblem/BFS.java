@@ -1,4 +1,4 @@
-package tree;
+package tree.java.BFSProblem;
 
 import java.util.LinkedList;
 import java.util.Queue;
