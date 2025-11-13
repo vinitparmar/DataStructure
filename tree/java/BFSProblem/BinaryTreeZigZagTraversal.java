@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import tree.java.Node;
+
+
 public class BinaryTreeZigZagTraversal {
 
     static Node root;

@@ -3,6 +3,9 @@ package tree.java.BFSProblem;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import tree.java.Node;
+
+
 public class BFS {
 
     static Node root;
@@ -44,17 +47,4 @@ public class BFS {
         bfs(root); 
     }
 
-}
-
-
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    public Node(int data){
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
 }
