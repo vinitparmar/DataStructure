@@ -3,6 +3,9 @@ package tree.java.BFSProblem;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import tree.java.Node;
+
+
 public class RightSideView {
     
     static Node root;

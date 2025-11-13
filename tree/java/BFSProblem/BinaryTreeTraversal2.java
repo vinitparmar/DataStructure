@@ -5,6 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import tree.java.Node;
+
+
+
 public class BinaryTreeTraversal2 {
     
     static Node root;

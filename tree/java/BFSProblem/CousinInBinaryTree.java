@@ -1,5 +1,7 @@
 package tree.java.BFSProblem;
 
+import tree.java.Node;
+
 public class CousinInBinaryTree {
     
     static Node root;

@@ -1,5 +1,7 @@
 package tree;
 
+import tree.java.Node;
+
 public class BinarySearchTree {
 
     static Node root;
@@ -82,19 +84,5 @@ public class BinarySearchTree {
         }
 
         return searchRec(root.right, key);
-    }
-}
-
-
-class Node {
-
-    int data;
-    Node left;
-    Node right;
-
-    public Node (int data) {
-        this.data =  data;
-        this.left = null;
-        this.right =  null;
     }
 }
