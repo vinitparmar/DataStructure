@@ -1,8 +1,9 @@
-package graph.java.BFS;
+package graph.java.DirectedGraph;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
+import graph.java.DFS.TopologicalSort;
 
 public class KahnsAlgoTopologicalSort {
      /**
@@ -74,7 +75,7 @@ public class KahnsAlgoTopologicalSort {
         addEdge(5, 2);
         addEdge(5, 0);
         addEdge(4, 0);
-        addEdge(4, 1); 
+        addEdge(4, 1);
         addEdge(2, 3);
         addEdge(3, 1);
 
