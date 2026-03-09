@@ -11,7 +11,7 @@ public class TopologicalSort {
      * 
      */
 
-     static int V;
+    static int V;
     static LinkedList<Integer>[] adj;
 
     TopologicalSort(int V) {
