@@ -26,10 +26,10 @@ public class CycleDetectionUGDfs {
 
         boolean[] visited =  new boolean[V];
 
-        for(int i ; i < V ; i++){
+        for(int i = 0 ; i < V ; i++){
 
             if(!visited[i]){
-                if(){
+                if(dfs(i, -1, visited, graph)){
                     return true;
                 }
             } 
