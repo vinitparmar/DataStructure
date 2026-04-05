@@ -64,11 +64,12 @@ public class AlienDictionary {
 
          if (result.length() != inDegree.size()) return "";
 
-        return "";
+        return result.toString();
     }
     
 
     public static void main(String[] args) {
-        
+        String[] words1 = {"wrt", "wrf", "er", "ett", "rftt"};
+        System.out.println(alienDictionary(words1)); // "wertf"
     }
 }
